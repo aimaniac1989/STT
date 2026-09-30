@@ -1,0 +1,4 @@
+d99e39955c9d3d0350d8fb7c75e40c64a2b2eaeb003883d7c941fd2e8747b28c  vendor/checkpoints/parakeet-tdt-0.6b-v2.nemo
+d3f212dd20abecd315d830bc54ae3865e56ebfc3276484e57b771288ba27fd35  vendor/checkpoints/Qwen3-ASR-0.6B-hf/model.safetensors
+97a750503cf1ef57c8a7cc79e7cff04b3d4a566091c631f665eb91eae3a6fde0  vendor/windows/Miniconda3-py312_25.7.0-2-Windows-x86_64.exe
+cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b  vendor/windows/vc_redist.x64.exe

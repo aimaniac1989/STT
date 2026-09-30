@@ -1,0 +1,31 @@
+# Downloaded bundle. The fetch script, the bundle index, and checksums stay in git.
+/vendor/**
+!/vendor/README.md
+!/vendor/fetch-online.ps1
+!/vendor/checksums.sha256
+!/vendor/h100/
+/vendor/h100/**
+!/vendor/h100/requirements-lock.txt
+
+# Machine-local Android SDK path
+stt-android/local.properties
+stt-android/.gradle/
+stt-android/**/build/
+stt-android/.idea/
+*.iml
+
+# Model weights are hosted or copied from vendor/packs. Do not commit them.
+/packs/*.tar.bz2
+/packs/*.onnx
+/packs/*/
+
+# Corpora downloaded on this PC. Copy Allowed rows to the H100. Do not commit audio.
+/data/
+
+# Training artifacts
+/training/**/exp/
+/training/**/data/
+*.pt
+*.ckpt
+__pycache__/
+.venv/

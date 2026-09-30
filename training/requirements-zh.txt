@@ -1,0 +1,10 @@
+# Chinese LoRA environment only. Do not install this into the NeMo environment.
+# NeMo 2.7.3 stays on transformers 4.57.6. Qwen3-ASR-0.6B-hf needs transformers 5.18.0.
+transformers==5.18.0
+tokenizers==0.23.2
+huggingface-hub==1.33.0
+safetensors==0.8.0
+accelerate==1.15.0
+peft==0.21.1
+soundfile==0.14.0
+librosa==1.0.0

@@ -1,0 +1,9 @@
+# Windows win_amd64 packages for the H100. PyTorch is installed separately
+# from the cu130 wheel (runs on the CUDA 13.2 toolkit) so pip cannot replace it with a CPU build.
+nemo_toolkit[asr]==2.7.3
+lhotse>=1.32.2
+transformers~=4.57.0
+peft
+sentencepiece
+sherpa-onnx
+onnx
